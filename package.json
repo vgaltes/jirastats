@@ -1,0 +1,20 @@
+{
+  "name": "tescojira",
+  "version": "1.0.0",
+  "bin": {
+    "sprintstats": "./index.js"
+  },
+  "description": "Getting statistics from Jira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}

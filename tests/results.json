@@ -1,0 +1,1442 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 73,
+    "issues": [
+        {                    
+            "expand": "operations,editmeta,changelog,transitions,renderedFields",
+            "id": "571318",
+            "self": "https://host/rest/api/2/issue/571318",
+            "key": "story-1",
+            "fields": {
+                "issuetype": {
+                    "self": "https://host/rest/api/2/issuetype/10001",
+                    "id": "10001",
+                    "description": "Created by JIRA Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://host/images/icons/ico_story.png",
+                    "name": "Story",
+                    "subtask": false
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://host/rest/api/2/project/11107",
+                    "id": "11107",
+                    "key": "CC",
+                    "name": "A Project",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/projectavatar?pid=11107&avatarId=11815",
+                        "24x24": "https://host/secure/projectavatar?size=small&pid=11107&avatarId=11815",
+                        "16x16": "https://host/secure/projectavatar?size=xsmall&pid=11107&avatarId=11815",
+                        "32x32": "https://host/secure/projectavatar?size=medium&pid=11107&avatarId=11815"
+                    }
+                },
+                "fixVersions": [
+                    {
+                        "self": "https://host/rest/api/2/version/17936",
+                        "id": "17936",
+                        "name": "Recarding Tactical - Contact",
+                        "archived": false,
+                        "released": false,
+                        "releaseDate": "2017-05-26"
+                    }
+                ],
+                "aggregatetimespent": null,
+                "resolution": {
+                    "self": "https://host/rest/api/2/resolution/4",
+                    "id": "4",
+                    "description": "The problem is not completely described.",
+                    "name": "Won't Do"
+                },
+                "customfield_12206": null,
+                "customfield_12205": null,
+                "resolutiondate": "2017-05-09T11:23:00.000+0100",
+                "workratio": -1,
+                "lastViewed": null,
+                "watches": {
+                    "self": "https://host/rest/api/2/issue/story-1/watchers",
+                    "watchCount": 0,
+                    "isWatching": false
+                },
+                "created": "2017-04-20T10:55:57.000+0100",
+                "customfield_12200": null,
+                "priority": {
+                    "self": "https://host/rest/api/2/priority/10000",
+                    "iconUrl": "https://host\"/\"",
+                    "name": "Default",
+                    "id": "10000"
+                },
+                "customfield_12202": null,
+                "customfield_12400": null,
+                "customfield_10101": {
+                    "self": "https://host/rest/api/2/customFieldOption/10105",
+                    "value": "Unblocked",
+                    "id": "10105"
+                },
+                "customfield_12201": null,
+                "customfield_10102": null,
+                "customfield_12204": null,
+                "customfield_10300": null,
+                "customfield_12600": null,
+                "labels": [
+                    "A label"
+                ],
+                "customfield_12203": null,
+                "customfield_10103": null,
+                "customfield_10610": null,
+                "customfield_11305": null,
+                "customfield_11900": null,
+                "customfield_11306": null,
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "customfield_11901": null,
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2017-05-09T11:23:00.000+0100",
+                "status": {
+                    "self": "https://host/rest/api/2/status/10100",
+                    "description": "The piece of work has been rejected at this point in time.  There is a rejection screen which lists the reasons for rejection",
+                    "iconUrl": "https://host/images/icons/statuses/generic.png",
+                    "name": "Rejected",
+                    "id": "10100",
+                    "statusCategory": {
+                        "self": "https://host/rest/api/2/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": "Description for story 1.",
+                "customfield_12305": null,
+                "customfield_10204": null,
+                "customfield_10006": null,
+                "customfield_12304": null,
+                "customfield_11611": null,
+                "customfield_10601": null,
+                "customfield_12307": null,
+                "customfield_10007": null,
+                "customfield_10205": [
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/12443",
+                        "value": "0. Security",
+                        "id": "12443"
+                    }
+                ],
+                "customfield_10602": null,
+                "customfield_10008": 2.0,
+                "customfield_12306": null,
+                "customfield_10009": null,
+                "customfield_10603": null,
+                "aggregatetimeestimate": null,
+                "customfield_12308": null,
+                "customfield_10604": null,
+                "customfield_10605": null,
+                "customfield_10606": null,
+                "customfield_10607": null,
+                "summary": "Summary for story 1.",
+                "creator": {
+                    "self": "https://host/rest/api/2/user?username=username1",
+                    "name": "username1",
+                    "key": "username1",
+                    "emailAddress": "username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://host/rest/api/2/user?username=username1",
+                    "name": "username1",
+                    "key": "username1",
+                    "emailAddress": "username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_12301": null,
+                "customfield_11211": null,
+                "customfield_10200": null,
+                "customfield_12300": null,
+                "customfield_10002": "0|i00bqv:01q4",
+                "customfield_11610": null,
+                "customfield_12303": null,
+                "customfield_12501": null,
+                "customfield_12302": null,
+                "customfield_10202": null,
+                "customfield_12500": null,
+                "environment": null,
+                "customfield_11602": null,
+                "customfield_11800": null,
+                "customfield_10713": "0.0",
+                "customfield_11605": null,
+                "duedate": null,
+                "customfield_11607": null,
+                "customfield_11606": null,
+                "customfield_11609": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://host/rest/api/2/issue/story-1/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            },
+            "changelog": {
+                "startAt": 0,
+                "maxResults": 7,
+                "total": 7,
+                "histories": [
+                    {
+                        "id": "3149447",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username1",
+                            "name": "Username1",
+                            "key": "Username1",
+                            "emailAddress": "Username1@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?avatarId=10117",
+                                "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                                "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                            },
+                            "displayName": "Username1",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-09T11:23:00.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10108",
+                                "fromString": "To Be Refined",
+                                "to": "10100",
+                                "toString": "Rejected"
+                            },
+                            {
+                                "field": "resolution",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": null,
+                                "to": "4",
+                                "toString": "Won't Do"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "expand": "operations,editmeta,changelog,transitions,renderedFields",
+            "id": "556700",
+            "self": "https://host/rest/api/2/issue/556700",
+            "key": "story-2",
+            "fields": {
+                "issuetype": {
+                    "self": "https://host/rest/api/2/issuetype/10001",
+                    "id": "10001",
+                    "description": "Created by JIRA Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://host/images/icons/ico_story.png",
+                    "name": "Story",
+                    "subtask": false
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://host/rest/api/2/project/11107",
+                    "id": "11107",
+                    "key": "CC",
+                    "name": "A Project",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/projectavatar?pid=11107&avatarId=11815",
+                        "24x24": "https://host/secure/projectavatar?size=small&pid=11107&avatarId=11815",
+                        "16x16": "https://host/secure/projectavatar?size=xsmall&pid=11107&avatarId=11815",
+                        "32x32": "https://host/secure/projectavatar?size=medium&pid=11107&avatarId=11815"
+                    }
+                },
+                "fixVersions": [
+                    {
+                        "self": "https://host/rest/api/2/version/17936",
+                        "id": "17936",
+                        "name": "Name for the version",
+                        "archived": false,
+                        "released": false,
+                        "releaseDate": "2017-05-26"
+                    }
+                ],
+                "aggregatetimespent": null,
+                "resolution": {
+                    "self": "https://host/rest/api/2/resolution/1",
+                    "id": "1",
+                    "description": "A fix for this issue is checked into the tree and tested.",
+                    "name": "Completed"
+                },
+                "customfield_12206": null,
+                "customfield_12205": null,
+                "resolutiondate": "2017-05-18T10:51:07.000+0100",
+                "workratio": -1,
+                "lastViewed": "2017-05-18T10:51:07.137+0100",
+                "watches": {
+                    "self": "https://host/rest/api/2/issue/CC-3384/watchers",
+                    "watchCount": 5,
+                    "isWatching": false
+                },
+                "created": "2017-04-04T16:56:10.000+0100",
+                "customfield_12200": null,
+                "priority": {
+                    "self": "https://host/rest/api/2/priority/10000",
+                    "iconUrl": "https://host\"/\"",
+                    "name": "Default",
+                    "id": "10000"
+                },
+                "customfield_12202": null,
+                "customfield_12400": null,
+                "customfield_10101": {
+                    "self": "https://host/rest/api/2/customFieldOption/10105",
+                    "value": "Unblocked",
+                    "id": "10105"
+                },
+                "customfield_12201": null,
+                "customfield_10102": null,
+                "customfield_12204": null,
+                "customfield_10300": null,
+                "customfield_12600": null,
+                "labels": [],
+                "customfield_12203": null,
+                "customfield_10103": null,
+                "customfield_10610": null,
+                "customfield_11305": null,
+                "customfield_11900": null,
+                "customfield_11306": null,
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "customfield_11901": null,
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://host/rest/api/2/user?username=Username2",
+                    "name": "Username2",
+                    "key": "Username2",
+                    "emailAddress": "Username2@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10118",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10118",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10118",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10118"
+                    },
+                    "displayName": "Username2",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "updated": "2017-05-18T10:51:07.000+0100",
+                "status": {
+                    "self": "https://host/rest/api/2/status/10000",
+                    "description": "All work associated with this issue type is complete",
+                    "iconUrl": "https://host/images/icons/statuses/closed.png",
+                    "name": "Done",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://host/rest/api/2/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": "The description",
+                "customfield_12305": null,
+                "customfield_10204": null,
+                "customfield_10006": null,
+                "customfield_12304": null,
+                "customfield_11611": null,
+                "customfield_10601": null,
+                "customfield_12307": null,
+                "customfield_10007": null,
+                "customfield_10205": null,
+                "customfield_10602": null,
+                "customfield_10008": 3.0,
+                "customfield_12306": null,
+                "customfield_10009": null,
+                "customfield_10603": null,
+                "aggregatetimeestimate": null,
+                "customfield_12308": null,
+                "customfield_10604": null,
+                "customfield_10605": null,
+                "customfield_10606": null,
+                "customfield_10607": null,
+                "summary": "The summary",
+                "creator": {
+                    "self": "https://host/rest/api/2/user?username=Username1",
+                    "name": "Username1",
+                    "key": "Username1",
+                    "emailAddress": "Username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "subtasks": [
+                    {
+                        "id": "592105",
+                        "key": "Subtask1",
+                        "self": "https://host/rest/api/2/issue/592105",
+                        "fields": {
+                            "summary": "Subtask1 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592107",
+                        "key": "Subtask2",
+                        "self": "https://host/rest/api/2/issue/592107",
+                        "fields": {
+                            "summary": "Subtask2 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592115",
+                        "key": "Subtask3",
+                        "self": "https://host/rest/api/2/issue/592115",
+                        "fields": {
+                            "summary": "Subtask3 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592121",
+                        "key": "Subtask4",
+                        "self": "https://host/rest/api/2/issue/592121",
+                        "fields": {
+                            "summary": "Subtask4 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    }
+                ],
+                "reporter": {
+                    "self": "https://host/rest/api/2/user?username=Username1",
+                    "name": "Username1",
+                    "key": "Username1",
+                    "emailAddress": "Username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_12301": null,
+                "customfield_11211": null,
+                "customfield_10200": [
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10200",
+                        "value": "80% Code Coverage by Automated Tests",
+                        "id": "10200"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10201",
+                        "value": "User Acceptance Tested",
+                        "id": "10201"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10202",
+                        "value": "Code Reviewed",
+                        "id": "10202"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10203",
+                        "value": "Code Checked Into Repository",
+                        "id": "10203"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10204",
+                        "value": "All ACs passing QA",
+                        "id": "10204"
+                    }
+                ],
+                "customfield_12300": null,
+                "customfield_10002": "0|i1ve1p:",
+                "customfield_11610": null,
+                "customfield_12303": null,
+                "customfield_12501": null,
+                "customfield_12302": null,
+                "customfield_10202": null,
+                "customfield_12500": null,
+                "environment": null,
+                "customfield_11602": null,
+                "customfield_11800": null,
+                "customfield_10713": "0.0",
+                "customfield_11605": null,
+                "duedate": null,
+                "customfield_11607": null,
+                "customfield_11606": null,
+                "customfield_11609": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://host/rest/api/2/issue/CC-3384/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            },
+            "changelog": {
+                "startAt": 0,
+                "maxResults": 38,
+                "total": 38,
+                "histories": [
+                    {
+                        "id": "2956978",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username3",
+                            "name": "Username3",
+                            "key": "Username3",
+                            "emailAddress": "Username3@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username3&avatarId=18704",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username3&avatarId=18704",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username3&avatarId=18704",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username3&avatarId=18704"
+                            },
+                            "displayName": "Username3",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-05T08:44:51.000+0100",
+                        "items": [
+                            {
+                                "field": "description",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "Original description",
+                                "to": null,
+                                "toString": "New description."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2956991",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username3",
+                            "name": "Username3",
+                            "key": "Username3",
+                            "emailAddress": "Username3@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username3&avatarId=18704",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username3&avatarId=18704",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username3&avatarId=18704",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username3&avatarId=18704"
+                            },
+                            "displayName": "Username3",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-05T08:47:31.000+0100",
+                        "items": [
+                            {
+                                "field": "description",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "New description.",
+                                "to": null,
+                                "toString": "Another description."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3063678",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username4",
+                            "name": "Username4",
+                            "key": "Username4",
+                            "emailAddress": "Username4@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username4&avatarId=14442",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username4&avatarId=14442",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username4&avatarId=14442",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username4&avatarId=14442"
+                            },
+                            "displayName": "Username4",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-24T14:06:03.000+0100",
+                        "items": [
+                            {
+                                "field": "summary",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "Old summary.",
+                                "to": null,
+                                "toString": "New summary."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3178096",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-12T14:01:59.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10108",
+                                "fromString": "To Be Refined",
+                                "to": "10104",
+                                "toString": "In Build"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3202495",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-17T14:30:15.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10104",
+                                "fromString": "In Build",
+                                "to": "10106",
+                                "toString": "Ready for Deployment"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3208461",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-18T10:51:07.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10106",
+                                "fromString": "Ready for Deployment",
+                                "to": "10000",
+                                "toString": "Done"
+                            },
+                            {
+                                "field": "resolution",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": null,
+                                "to": "1",
+                                "toString": "Completed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "expand": "operations,editmeta,changelog,transitions,renderedFields",
+            "id": "556701",
+            "self": "https://host/rest/api/2/issue/556701",
+            "key": "story-3",
+            "fields": {
+                "issuetype": {
+                    "self": "https://host/rest/api/2/issuetype/10001",
+                    "id": "10001",
+                    "description": "Created by JIRA Agile - do not edit or delete. Issue type for a user story.",
+                    "iconUrl": "https://host/images/icons/ico_story.png",
+                    "name": "Story",
+                    "subtask": false
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://host/rest/api/2/project/11107",
+                    "id": "11107",
+                    "key": "CC",
+                    "name": "A Project",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/projectavatar?pid=11107&avatarId=11815",
+                        "24x24": "https://host/secure/projectavatar?size=small&pid=11107&avatarId=11815",
+                        "16x16": "https://host/secure/projectavatar?size=xsmall&pid=11107&avatarId=11815",
+                        "32x32": "https://host/secure/projectavatar?size=medium&pid=11107&avatarId=11815"
+                    }
+                },
+                "fixVersions": [
+                    {
+                        "self": "https://host/rest/api/2/version/17936",
+                        "id": "17936",
+                        "name": "Name for the version",
+                        "archived": false,
+                        "released": false,
+                        "releaseDate": "2017-05-26"
+                    }
+                ],
+                "aggregatetimespent": null,
+                "resolution": {
+                    "self": "https://host/rest/api/2/resolution/1",
+                    "id": "1",
+                    "description": "A fix for this issue is checked into the tree and tested.",
+                    "name": "Completed"
+                },
+                "customfield_12206": null,
+                "customfield_12205": null,
+                "resolutiondate": "2017-05-18T10:51:07.000+0100",
+                "workratio": -1,
+                "lastViewed": "2017-05-18T10:51:07.137+0100",
+                "watches": {
+                    "self": "https://host/rest/api/2/issue/CC-3384/watchers",
+                    "watchCount": 5,
+                    "isWatching": false
+                },
+                "created": "2017-04-04T16:56:10.000+0100",
+                "customfield_12200": null,
+                "priority": {
+                    "self": "https://host/rest/api/2/priority/10000",
+                    "iconUrl": "https://host\"/\"",
+                    "name": "Default",
+                    "id": "10000"
+                },
+                "customfield_12202": null,
+                "customfield_12400": null,
+                "customfield_10101": {
+                    "self": "https://host/rest/api/2/customFieldOption/10105",
+                    "value": "Unblocked",
+                    "id": "10105"
+                },
+                "customfield_12201": null,
+                "customfield_10102": null,
+                "customfield_12204": null,
+                "customfield_10300": null,
+                "customfield_12600": null,
+                "labels": [],
+                "customfield_12203": null,
+                "customfield_10103": null,
+                "customfield_10610": null,
+                "customfield_11305": null,
+                "customfield_11900": null,
+                "customfield_11306": null,
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "customfield_11901": null,
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://host/rest/api/2/user?username=Username2",
+                    "name": "Username2",
+                    "key": "Username2",
+                    "emailAddress": "Username2@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10118",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10118",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10118",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10118"
+                    },
+                    "displayName": "Username2",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "updated": "2017-05-18T10:51:07.000+0100",
+                "status": {
+                    "self": "https://host/rest/api/2/status/10000",
+                    "description": "All work associated with this issue type is complete",
+                    "iconUrl": "https://host/images/icons/statuses/closed.png",
+                    "name": "Done",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://host/rest/api/2/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "Done"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": "The description",
+                "customfield_12305": null,
+                "customfield_10204": null,
+                "customfield_10006": null,
+                "customfield_12304": null,
+                "customfield_11611": null,
+                "customfield_10601": null,
+                "customfield_12307": null,
+                "customfield_10007": null,
+                "customfield_10205": null,
+                "customfield_10602": null,
+                "customfield_10008": 3.0,
+                "customfield_12306": null,
+                "customfield_10009": null,
+                "customfield_10603": null,
+                "aggregatetimeestimate": null,
+                "customfield_12308": null,
+                "customfield_10604": null,
+                "customfield_10605": null,
+                "customfield_10606": null,
+                "customfield_10607": null,
+                "summary": "The summary",
+                "creator": {
+                    "self": "https://host/rest/api/2/user?username=Username1",
+                    "name": "Username1",
+                    "key": "Username1",
+                    "emailAddress": "Username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "subtasks": [
+                    {
+                        "id": "592105",
+                        "key": "Subtask1",
+                        "self": "https://host/rest/api/2/issue/592105",
+                        "fields": {
+                            "summary": "Subtask1 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592107",
+                        "key": "Subtask2",
+                        "self": "https://host/rest/api/2/issue/592107",
+                        "fields": {
+                            "summary": "Subtask2 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592115",
+                        "key": "Subtask3",
+                        "self": "https://host/rest/api/2/issue/592115",
+                        "fields": {
+                            "summary": "Subtask3 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    },
+                    {
+                        "id": "592121",
+                        "key": "Subtask4",
+                        "self": "https://host/rest/api/2/issue/592121",
+                        "fields": {
+                            "summary": "Subtask4 summary",
+                            "status": {
+                                "self": "https://host/rest/api/2/status/10109",
+                                "description": "All work related to the Sub-task is completed",
+                                "iconUrl": "https://host/images/icons/statuses/generic.png",
+                                "name": "Sub-task Done",
+                                "id": "10109",
+                                "statusCategory": {
+                                    "self": "https://host/rest/api/2/statuscategory/3",
+                                    "id": 3,
+                                    "key": "done",
+                                    "colorName": "green",
+                                    "name": "Done"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://host/rest/api/2/priority/10000",
+                                "iconUrl": "https://host\"/\"",
+                                "name": "Default",
+                                "id": "10000"
+                            },
+                            "issuetype": {
+                                "self": "https://host/rest/api/2/issuetype/5",
+                                "id": "5",
+                                "description": "The sub-task of the issue",
+                                "iconUrl": "https://host/images/icons/issuetypes/subtask_alternate.png",
+                                "name": "Sub-task",
+                                "subtask": true
+                            }
+                        }
+                    }
+                ],
+                "reporter": {
+                    "self": "https://host/rest/api/2/user?username=Username1",
+                    "name": "Username1",
+                    "key": "Username1",
+                    "emailAddress": "Username1@host.com",
+                    "avatarUrls": {
+                        "48x48": "https://host/secure/useravatar?avatarId=10117",
+                        "24x24": "https://host/secure/useravatar?size=small&avatarId=10117",
+                        "16x16": "https://host/secure/useravatar?size=xsmall&avatarId=10117",
+                        "32x32": "https://host/secure/useravatar?size=medium&avatarId=10117"
+                    },
+                    "displayName": "Username1",
+                    "active": true,
+                    "timeZone": "GB-Eire"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_12301": null,
+                "customfield_11211": null,
+                "customfield_10200": [
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10200",
+                        "value": "80% Code Coverage by Automated Tests",
+                        "id": "10200"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10201",
+                        "value": "User Acceptance Tested",
+                        "id": "10201"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10202",
+                        "value": "Code Reviewed",
+                        "id": "10202"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10203",
+                        "value": "Code Checked Into Repository",
+                        "id": "10203"
+                    },
+                    {
+                        "self": "https://host/rest/api/2/customFieldOption/10204",
+                        "value": "All ACs passing QA",
+                        "id": "10204"
+                    }
+                ],
+                "customfield_12300": null,
+                "customfield_10002": "0|i1ve1p:",
+                "customfield_11610": null,
+                "customfield_12303": null,
+                "customfield_12501": null,
+                "customfield_12302": null,
+                "customfield_10202": null,
+                "customfield_12500": null,
+                "environment": null,
+                "customfield_11602": null,
+                "customfield_11800": null,
+                "customfield_10713": "0.0",
+                "customfield_11605": null,
+                "duedate": null,
+                "customfield_11607": null,
+                "customfield_11606": null,
+                "customfield_11609": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://host/rest/api/2/issue/CC-3384/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            },
+            "changelog": {
+                "startAt": 0,
+                "maxResults": 38,
+                "total": 38,
+                "histories": [
+                    {
+                        "id": "2956978",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username3",
+                            "name": "Username3",
+                            "key": "Username3",
+                            "emailAddress": "Username3@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username3&avatarId=18704",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username3&avatarId=18704",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username3&avatarId=18704",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username3&avatarId=18704"
+                            },
+                            "displayName": "Username3",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-05T08:44:51.000+0100",
+                        "items": [
+                            {
+                                "field": "description",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "Original description",
+                                "to": null,
+                                "toString": "New description."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2956991",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username3",
+                            "name": "Username3",
+                            "key": "Username3",
+                            "emailAddress": "Username3@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username3&avatarId=18704",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username3&avatarId=18704",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username3&avatarId=18704",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username3&avatarId=18704"
+                            },
+                            "displayName": "Username3",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-05T08:47:31.000+0100",
+                        "items": [
+                            {
+                                "field": "description",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "New description.",
+                                "to": null,
+                                "toString": "Another description."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3063678",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username4",
+                            "name": "Username4",
+                            "key": "Username4",
+                            "emailAddress": "Username4@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username4&avatarId=14442",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username4&avatarId=14442",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username4&avatarId=14442",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username4&avatarId=14442"
+                            },
+                            "displayName": "Username4",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-04-24T14:06:03.000+0100",
+                        "items": [
+                            {
+                                "field": "summary",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": "Old summary.",
+                                "to": null,
+                                "toString": "New summary."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3178096",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-12T14:01:59.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10108",
+                                "fromString": "To Be Refined",
+                                "to": "10104",
+                                "toString": "In Build"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3178096",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-12T14:01:59.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10104",
+                                "fromString": "In Build",
+                                "to": "10108",
+                                "toString": "To Be Refined"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3178096",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-13T14:01:59.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10108",
+                                "fromString": "To Be Refined",
+                                "to": "10104",
+                                "toString": "In Build"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3202495",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-17T14:30:15.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10104",
+                                "fromString": "In Build",
+                                "to": "10106",
+                                "toString": "Ready for Deployment"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3208461",
+                        "author": {
+                            "self": "https://host/rest/api/2/user?username=Username5",
+                            "name": "Username5",
+                            "key": "Username5",
+                            "emailAddress": "Username5@host.com",
+                            "avatarUrls": {
+                                "48x48": "https://host/secure/useravatar?ownerId=Username5&avatarId=18472",
+                                "24x24": "https://host/secure/useravatar?size=small&ownerId=Username5&avatarId=18472",
+                                "16x16": "https://host/secure/useravatar?size=xsmall&ownerId=Username5&avatarId=18472",
+                                "32x32": "https://host/secure/useravatar?size=medium&ownerId=Username5&avatarId=18472"
+                            },
+                            "displayName": "Username5",
+                            "active": true,
+                            "timeZone": "GB-Eire"
+                        },
+                        "created": "2017-05-18T10:51:07.000+0100",
+                        "items": [
+                            {
+                                "field": "status",
+                                "fieldtype": "jira",
+                                "from": "10106",
+                                "fromString": "Ready for Deployment",
+                                "to": "10000",
+                                "toString": "Done"
+                            },
+                            {
+                                "field": "resolution",
+                                "fieldtype": "jira",
+                                "from": null,
+                                "fromString": null,
+                                "to": "1",
+                                "toString": "Completed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
