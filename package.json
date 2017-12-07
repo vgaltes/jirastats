@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "moment": "^2.19.3"
   },
   "devDependencies": {
     "chai": "^3.5.0"
