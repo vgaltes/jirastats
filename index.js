@@ -44,9 +44,12 @@ let performRequest = (host, endpoint, method, reqdata, username, password, succe
   req.end();
 }
 
-let getData = (host, username, password, sprint, action) => {
+let getData = (host, username, password, sprint, teamLabel, action) => {
     let sprintQuery = 'Sprint="' + sprint + '"';
 
+		if (teamLabel)
+			sprintQuery += ' AND labels ="' + teamLabel + '"';
+			
     performRequest(host, '/rest/api/2/search', 'GET', {
         "jql": sprintQuery,
         "expand": "changelog",
@@ -55,7 +58,7 @@ let getData = (host, username, password, sprint, action) => {
 };
 
 let getBasicStatistics = (options) => {
-    getData(options.host, options.username, options.password, options.sprint, 
+    getData(options.host, options.username, options.password, options.sprint, options.team,
         function(s){
             data.getStoriesFrom(s);
 
@@ -67,7 +70,8 @@ let getBasicStatistics = (options) => {
 };
 
 let getLeadTimes = (options) => {
-    getData(options.host, options.username, options.password, options.sprint, 
+  console.log(options);
+		getData(options.host, options.username, options.password, options.sprint, options.team, 
         function(s){
             let stories = data.getStoriesFrom(s);
 
@@ -86,6 +90,7 @@ program
   .option('-p, --password <required>','password to use')
   .option('-j, --host <required>','host to use')
   .option('-s, --sprint <required>','sprint to get info from')
+	.option('-t, --team <team>','team to get infor for')
   .action(getBasicStatistics);
 
 program
@@ -95,6 +100,7 @@ program
   .option('-p, --password <password>','password to use')
   .option('-j, --host <host>','host to use')
   .option('-s, --sprint <sprint>','sprint to get info from')
+	.option('-t, --team <team>','team to get infor for')
   .action(getLeadTimes); 
 
 program.parse(process.argv); // notice that we have to parse in a new statement.
